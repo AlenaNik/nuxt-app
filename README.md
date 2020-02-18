@@ -1,6 +1,5 @@
-# nuxt-app
 
-> My legendary Nuxt.js project
+![Project](https://i.ibb.co/jyRNWQ1/Feb-18-2020-23-24-09.gif)
 
 ## Build Setup
 
