@@ -1,14 +1,11 @@
 <template>
-  <div>
-   <div>
-     Im layout
-    </div>
-    <nuxt/>
-  </div>
+<div>
+<nuxt/>
+</div>
 </template>
 
 <script>
   export default {
-
+    layout: 'error-layout'
   }
 </script>
