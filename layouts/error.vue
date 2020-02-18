@@ -1,6 +1,5 @@
 <template>
   <div>
-    This is error page
     <h1>{{ error.statusCode }} not Found</h1>
   </div>
 </template>

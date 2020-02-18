@@ -1,5 +1,6 @@
 <template>
 <div>
+  My custom error layout
 <nuxt/>
 </div>
 </template>
