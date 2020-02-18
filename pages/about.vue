@@ -8,7 +8,10 @@
 
 <script>
 
+  import test from '../middleware/test'
+
   export default {
+    middleware: 'test',
     asyncData(){
       return { title: 'About from async '}
     },

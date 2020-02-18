@@ -7,6 +7,9 @@
 
 <script>
   export default {
+    // validate({ params }) {
+    //  return /^\d+$/.test(params.post)
+    // },
     data(){
       return {
         slug: this.$route.params
