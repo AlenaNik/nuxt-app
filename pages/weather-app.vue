@@ -92,7 +92,7 @@
     },
     methods: {
       getWeatherInfo() {
-        this.$axios.$get(`http://api.openweathermap.org/data/2.5/weather?q=${this.city}&APPID=c6eba2ee0a23cd0b9459a2e6e24cf23f`)
+        this.$axios.$get(`http://api.openweathermap.org/data/2.5/weather?q=${this.city}&APPID=${process.env.weatherAppId}`)
           .then(res => (this.weather = res))
       }
     }
