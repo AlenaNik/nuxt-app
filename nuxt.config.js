@@ -1,10 +1,8 @@
 const colors = require('vuetify/es5/util/colors').default
+require('dotenv').config()
 
 module.exports = {
   mode: 'universal',
-  router: {
-    middleware: 'test'
-  },
   /*
   ** Headers of the page
   */
@@ -45,6 +43,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv'
   ],
   /*
   ** vuetify module configuration

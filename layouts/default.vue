@@ -1,35 +1,23 @@
 <template>
   <v-app>
-  <v-toolbar dense>
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-    <v-toolbar-title>Learning Nuxt</v-toolbar-title>
-
-    <v-toolbar-items class="hidden-sm-and-down">
-
-    <v-btn flat>
-     <nuxt-link to="/">
-       Home
-     </nuxt-link>
+    <v-content>
+    <v-toolbar>
+    <v-toolbar-title>
+      <v-btn text>
+      <nuxt-link to="/"> Home ⛈️ </nuxt-link>
+      </v-btn>
+    </v-toolbar-title>
+    <v-toolbar-items>
+    <v-btn text>
+     <nuxt-link to="/weather-app">
+       Weather App </nuxt-link>
     </v-btn>
-
-
-      <v-btn flat>
-        <nuxt-link to="/about">
-          About
-        </nuxt-link>
-      </v-btn>
-
-
-
-      <v-btn flat>
-        <nuxt-link to="/inspire">
-          Inspire
-        </nuxt-link>
-      </v-btn>
     </v-toolbar-items>
   </v-toolbar>
-  <nuxt/>
+      <transition>
+        <nuxt/>
+      </transition>
+    </v-content>
   </v-app>
 </template>
 
@@ -38,3 +26,10 @@
 
   }
 </script>
+
+<style scoped>
+  a {
+    text-decoration: none;
+    color: white;
+  }
+</style>
